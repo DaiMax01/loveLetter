@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.css-selector {
+    background: linear-gradient(87deg, #e6a4b4, #f3d7ca, #f5eee6, #e6a4b4);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+.btn-custom-pink-light {
+    background-color: #ffcccc; /* rosa claro */
+    color: #fff; /* texto blanco */
+    border-color: #ffcccc; /* borde rosa claro */
+}
+.btn-custom-pink-light:hover {
+    background-color: #ff9999; /* rosa claro al pasar el ratón */
+    border-color: #ff9999; /* borde rosa claro al pasar el ratón */
+}
